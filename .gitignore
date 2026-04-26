@@ -1,2 +1,30 @@
 /IEMS5726_2025-26_ProjectInstructions.pdf
 /IEMS5726_GroupXXReport.docx
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Logs
+*.log
+logs/
+
+# Model outputs
+*.pth
+*.pt
+*.onnx
+checkpoints/
+
+# Generated outputs
+app/outputs/*
+!app/outputs/.gitkeep
+
+# OS / editor
+.DS_Store
+.vscode/
