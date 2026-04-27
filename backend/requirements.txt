@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+gymnasium[classic-control]
+torch
+numpy
+matplotlib
+imageio
